@@ -38,7 +38,8 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 #super awesome graph, MAXIMUM EFFORT
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point(aes(color = cut)) +
-  theme_minimal()
+  theme_minimal() +
+  labs(title = "MAXIMUM EFFORT")
 ```
 
 ```{r break-it-2}
