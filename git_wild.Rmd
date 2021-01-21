@@ -35,9 +35,10 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+#super awesome graph, MAXIMUM EFFORT
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
-  geom_point() +
-  theme_void()
+  geom_point(aes(color = cut)) +
+  theme_minimal()
 ```
 
 ```{r break-it-2}
