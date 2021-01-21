@@ -40,6 +40,8 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point(aes(color = cut)) +
   theme_minimal() +
   labs(title = "MAXIMUM EFFORT")
+
+bonnie_2 <- 6+4
 ```
 
 ```{r break-it-2}
