@@ -29,15 +29,15 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 ggplot(data = diamonds, aes(x = color, y = carat)) +
   geom_jitter() +
   theme_light() +
-  labs(title = "YOURNAME was here")
+  labs(title = "Meghan was here")
 ```
 
 ## PART B: Make problems
 
 ```{r break-it-1}
-ggplot(data = diamonds, aes(x = depth, y = carat)) +
+ggplot(data = diamonds, aes(x = price, y = carat)) +
   geom_point() +
-  theme_void()
+  theme_bw()
 ```
 
 ```{r break-it-2}
