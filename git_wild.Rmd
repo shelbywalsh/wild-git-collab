@@ -53,6 +53,8 @@ bonnie_2 <- 6+4
 
 ```{r break-it-2}
 bonnie <- 2+4
+
+clyde <- 7*6
 ```
 
 ## END Discussion 3
