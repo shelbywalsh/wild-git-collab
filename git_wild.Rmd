@@ -35,14 +35,24 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+<<<<<<< HEAD
 # Hi I'm LOST ahahah
 ggplot(data = diamonds, aes(x = price, y = carat)) +
   geom_point(aes(color = "green")) +
   theme_bw()
+=======
+#super awesome graph, MAXIMUM EFFORT
+ggplot(data = diamonds, aes(x = depth, y = carat)) +
+  geom_point(aes(color = cut)) +
+  theme_minimal() +
+  labs(title = "MAXIMUM EFFORT")
+
+bonnie_2 <- 6+4
+>>>>>>> origin
 ```
 
 ```{r break-it-2}
-
+bonnie <- 2+4
 ```
 
 ## END Discussion 3
